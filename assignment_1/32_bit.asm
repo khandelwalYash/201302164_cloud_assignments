@@ -1,16 +1,16 @@
 segment .data
-    a db  0x1
-    b db  0x1
-    c db  0x1
+    x db  0x1
+    y db  0x1
+    z db  0x1
 
 segment .text
     global main
 
 main:
 
-   mov eax, [a]
-   mov ebx, [b]
-   mov ecx, [c]
+   mov eax, [z]
+   mov ebx, [y]
+   mov ecx, [x]
    add eax, ebx
    add ecx, eax
-   mov [c], ecx
+   mov [x], ecx
