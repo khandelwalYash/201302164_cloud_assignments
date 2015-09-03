@@ -1,0 +1,7 @@
+custom mininet network topology
+No. of hosts:  X 
+No. of switches: Y 
+
+run --> python mininet.py X Y
+
+
